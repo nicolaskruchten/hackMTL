@@ -1,0 +1,7 @@
+My entry for hackMTL on Saturday, November 28
+
+This Python script uses the DokDok API to build an in-memory graph of the social network represented by the email threads in your inbox.
+
+It comes with an on-board HTTP server, which can be used to serve a JSON file to the enclosed HTML file for visualization via a Force-Directed layout provided by the Protovis library.
+
+As it goes, it generates an on-disk cache, in a format suitable for a more powerful graph analysis tool, such as Gephi.
